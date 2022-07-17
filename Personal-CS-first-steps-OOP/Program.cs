@@ -72,6 +72,10 @@ namespace OOP
             pers6.Saluta();
             Console.WriteLine("\n\n\n\n\n");
 
+
+            //OOP extension
+            Studente studente = new Studente("francesco","nugma", 25, "archimede", "4B");
+            studente.Saluta();
         }
 
         class Persona
